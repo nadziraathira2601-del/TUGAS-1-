@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    display:flex;
+    background:#f4f6f9;
+}
+
+.sidebar{
+    width:250px;
+    height:100vh;
+    background:#1e293b;
+    color:white;
+    position:fixed;
+}
+
+.sidebar h2{
+    text-align:center;
+    padding:25px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li{
+    padding:18px
+}
+
+.sidebar ul li:hover,
+.sidebar ul .active{
+    background:#2563eb;
+}
+
+.sidebar a{
+    color:white;
+    text-decoration:none;
+    display:block;
+}
+
+.main{
+    margin-left:250px;
+    width:100%;
+}
+
+.navbar{
+    height:70px;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.user{
+    display:flex;
+    align-items:center;
+}
+
+.user img{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    margin-left:10px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 4px 8px rgba(0,0,0,.1);
+}
+
+.card i{
+    font-size:35px;
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.content{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+
+.form,
+.table{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width:50%;
+    box-shadow:0 4px 8px rgba(0,0,0.1);
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-top:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+textrea{
+    height:100px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    color:white;
+    cursor:pointer;
+    margin-top:15px;
+
+}
+
+.btn-save{
+    background:#16a34a;
+}
+
+.btn-reset{
+    background:#dc2626;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+table th,
+table td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+table th{
+    background:#2563eb;
+    color:white;
+}
