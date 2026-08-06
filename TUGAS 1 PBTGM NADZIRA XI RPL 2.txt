@@ -1,0 +1,13 @@
+========== PROGRAM OUTPUT ==========
+Program ini adalah program untuk
+Menampilkan output ke layar komputer.
+Output sangat penting buat menampilkan
+informasi kepada user.
+====================================
+
+Program ini dibuat oleh Nadzira
+
+--------------------------------
+Process exited after 0.2408 seconds with return value 0
+Press any key to continue . . .
+
